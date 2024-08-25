@@ -5,7 +5,7 @@ name: notify_crawler
 on:
   schedule:
   # scheduled at every 30min during trading hours, (UTC+8), weekdays
-    - cron: "* 2,14 * * *"
+    - cron: "0 2,14 * * *"
   workflow_dispatch:
 
 env:
